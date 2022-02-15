@@ -1,1 +1,18 @@
 /* styles go here */
+.form-field {
+  display: block;
+}
+
+.input {
+  margin-bottom: 10px;
+}
+
+.legend {
+  color: #0c0b0b;
+  padding: 3px 6px;
+  margin-bottom: 10px ;
+}
+
+.fieldset {
+  margin-bottom: 20px;
+}
