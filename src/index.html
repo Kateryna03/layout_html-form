@@ -14,84 +14,83 @@
     <h1>HTML Form</h1>
 
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
-
       <fieldset class="fieldset">
         <legend class="legend">Personal information</legend>
         <label class="form-field">
         Surname:
-          <input class="input"
-          type="text"
-          name="surname"
+          <input
+            class="input"
+            type="text"
+            name="surname"
           >
         </label>
 
         <label class="form-field">
         Name:
           <input
-          class="input"
-          type="text"
-          name="name"
-          autocomplete="off"
+            class="input"
+            type="text"
+            name="name"
+            autocomplete="off"
           >
         </label>
 
         <label class="form-field">
         How old are You:
           <input
-          class="input"
-          type="number"
-          name="age"
-          value="12"
-          min="1"
-          max="100"
+            class="input"
+            type="number"
+            name="age"
+            value="12"
+            min="1"
+            max="100"
           >
         </label>
 
         <label class="form-field">
         Full date of birt:
           <input
-          class="input"
-          type="date"
-          name="birthday"
+            class="input"
+            type="date"
+            name="birthday"
           >
         </label>
 
         <label class="form-field">
           I accept the terms of the agreement
           <input
-           type="checkbox"
-           name="accept"
-           required
+            type="checkbox"
+            name="accept"
+            required
           >
         </label>
       </fieldset>
-
 
       <fieldset class="fieldset">
         <legend class="legend">Registration</legend>
 
         <label
-        class="form-field"
-        for="email">E-mail:
+          class="form-field"
+          for="email"
+        >E-mail:
           <input
-          class="input"
-          type="email"
-          id="email"
-          name="email"
-          placeholder="example@gmail.com"
-          required
+            class="input"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="example@gmail.com"
+            required
           >
         </label>
 
-        <label
-        class="form-field"
+        <label class="form-field"
         >Password:
           <input
-          type="password"
-          name="password"
-          minlength="8"
-          maxlength="16"
-          required
+            type="password"
+            name="password"
+            minlength="8"
+            maxlength="16"
+            required
           >
 
         </label>
@@ -103,48 +102,48 @@
         <label class="form-field">
         Do you love cats?
           <input
-          class="input"
-          type="radio"
-          name="cats"
-          value="Yes"
+            class="input"
+            type="radio"
+            name="cats"
+            value="Yes"
           >Yes
         </label>
 
         <label class="form-field">
           <input
-          class="input"
-          type="radio"
-          name="cats"
-          value="No"
+            class="input"
+            type="radio"
+            name="cats"
+            value="No"
           >No
         </label>
 
         <label class="form-field">
         What is your favorite color?
           <input
-          class="input"
-          type="color"
-          name="color"
-          value="#000000"
+            class="input"
+            type="color"
+            name="color"
+            value="#000000"
           >
         </label>
 
         <label class="form-field">
           What time do you go bed?:
           <input
-          class="input"
-          type="time"
-          name="time"
-          step="1"
+            class="input"
+            type="time"
+            name="time"
+            step="1"
           >
         </label>
 
         <label class="form-field input">
          What are your favorite brands of cars?:
           <select
-          name="cars"
-          required
-          multiple
+            name="cars"
+            required
+            multiple
           >
             <option value="bmw">BMW</option>
             <option value="audi">Audi</option>
@@ -162,7 +161,7 @@
             max="100"
             value="0"
             step="1"
-            >
+          >
         </label>
       </fieldset>
 
@@ -172,17 +171,17 @@
         <label class="form-field input">
         Comments:
           <textarea
-          name="comments"
-          rows="2"
-          cols="25"></textarea>
+            name="comments"
+            rows="2"
+            cols="25"></textarea>
         </label>
 
         <label class="form-field">
         Would you reccomend us?
           <select
-          name="reccomandation"
-          size="1"
-          required>
+            name="reccomandation"
+            size="1"
+            required>
             <option value="yes" selected>yes</option>
             <option value="no">no</option>
           </select>
