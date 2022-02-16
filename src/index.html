@@ -16,13 +16,13 @@
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
 
       <fieldset class="fieldset">
-
         <legend class="legend">Personal information</legend>
         <label class="form-field">
         Surname:
           <input class="input"
           type="text"
-          name="surname">
+          name="surname"
+          >
         </label>
 
         <label class="form-field">
@@ -31,8 +31,8 @@
           class="input"
           type="text"
           name="name"
-          autocomplete="off">
-
+          autocomplete="off"
+          >
         </label>
 
         <label class="form-field">
@@ -43,16 +43,17 @@
           name="age"
           value="12"
           min="1"
-          max="100">
+          max="100"
+          >
         </label>
 
         <label class="form-field">
-
         Full date of birt:
           <input
           class="input"
           type="date"
-          name="birthday">
+          name="birthday"
+          >
         </label>
 
         <label class="form-field">
@@ -63,13 +64,11 @@
            required
           >
         </label>
-
       </fieldset>
 
 
       <fieldset class="fieldset">
         <legend class="legend">Registration</legend>
-
 
         <label
         class="form-field"
@@ -80,8 +79,8 @@
           id="email"
           name="email"
           placeholder="example@gmail.com"
-          required>
-
+          required
+          >
         </label>
 
         <label
@@ -96,12 +95,9 @@
           >
 
         </label>
-
       </fieldset>
 
-
       <fieldset class="fieldset">
-
         <legend class="legend">An interesting fact about us!</legend>
 
         <label class="form-field">
@@ -121,7 +117,6 @@
           name="cats"
           value="No"
           >No
-
         </label>
 
         <label class="form-field">
@@ -132,7 +127,6 @@
           name="color"
           value="#000000"
           >
-
         </label>
 
         <label class="form-field">
@@ -143,7 +137,6 @@
           name="time"
           step="1"
           >
-
         </label>
 
         <label class="form-field input">
@@ -157,9 +150,7 @@
             <option value="audi">Audi</option>
             <option value="lada">Lada</option>
             <option value=" " disabled></option>
-
           </select>
-
         </label>
 
         <label class="form-field">
@@ -172,15 +163,12 @@
             value="0"
             step="1"
             >
-
         </label>
-
       </fieldset>
 
-
       <fieldset class="fieldset">
-
         <legend class="legend">Additional info:</legend>
+
         <label class="form-field input">
         Comments:
           <textarea
@@ -191,7 +179,6 @@
 
         <label class="form-field">
         Would you reccomend us?
-
           <select
           name="reccomandation"
           size="1"
@@ -199,12 +186,9 @@
             <option value="yes" selected>yes</option>
             <option value="no">no</option>
           </select>
-
         </label>
-
       </fieldset>
     </form>
-
 
     <button type="submit">Submit</button>
 
